@@ -33,7 +33,18 @@ update-alternatives --list javac
 Re-login and test:
 java -version
 
+### How to install MySQL connector
 
+From here: https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-installing.html  
+
+Download from OBS or from here:  
+https://dev.mysql.com/downloads/connector/j/  
+I used 5.1.47  
+
+Put it to a desired location.  
+
+Modify /etc/profile:  
+export CLASSPATH=/path/mysql-connector-java-ver-bin.jar:$CLASSPATH  
 
 apt-get remove openjdk*
 add-apt-repository ppa:webupd8team/java
