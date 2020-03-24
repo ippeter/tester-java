@@ -48,8 +48,10 @@ export CLASSPATH=/path/mysql-connector-java-ver-bin.jar:$CLASSPATH
 
 ### Required tables
 
-use demo;
+use demo;  
 create table logs (entry varchar(19));  
+
+
 
 
 find / -name slf4j*
