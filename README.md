@@ -51,12 +51,8 @@ export CLASSPATH=/path/mysql-connector-java-ver-bin.jar:$CLASSPATH
 use demo;  
 create table logs (entry varchar(19));  
 
+### Fix SLF4J issue
 
-
-
-find / -name slf4j*
-mv slf4j-jdk14-1.7.25.jar /opt/oss/servicemgr/ICAgent/pinpoint
-cd /opt/oss/servicemgr/ICAgent/pinpoint
-mv slf4j-jdk14-1.7.25.jar ./lib
-
+Download slf4j-jdk14-1.7.25.jar from OBS.  
+mv slf4j-jdk14-1.7.25.jar /opt/oss/servicemgr/ICAgent/pinpoint/lib  
 
