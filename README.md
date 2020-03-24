@@ -56,3 +56,6 @@ create table logs (entry varchar(19));
 Download slf4j-jdk14-1.7.25.jar from OBS.  
 mv slf4j-jdk14-1.7.25.jar /opt/oss/servicemgr/ICAgent/pinpoint/lib  
 
+### Start the app
+
+Don't forget the -Dapm_noport=true option.  
